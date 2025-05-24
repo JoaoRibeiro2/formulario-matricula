@@ -1,1 +1,31 @@
 @import url('global.css');
+
+#app{
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 51.25% 48.75%;
+      height: 100vh;
+}
+
+main{
+      overflow: auto;
+      padding: 4rem;
+      .main-container{
+            max-width: 33rem;
+            margin-left: auto;
+      }
+}
+aside{
+      background-color: var(--surface-secondary);
+      padding: 4rem;
+      .main-aside{
+            max-width: 496px;
+      }
+
+}     
+ h1{
+      font: var(--heading1);
+      stroke{
+            color: var(--brand-dark)
+      }
+}
