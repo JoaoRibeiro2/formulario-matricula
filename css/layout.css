@@ -42,8 +42,18 @@ aside{
             color: var(--brand-dark);
             } 
       }
+      & #Illustration{
+            margin-inline: 4rem;
+}
 }     
 
 p{
       font: var(--text-);
+}
+header{
+      margin-bottom: 2rem;
+}
+
+fieldset + fieldset{
+      margin-top: 3rem;
 }
