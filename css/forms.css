@@ -16,3 +16,9 @@ legend{
 label{
       font: var(--text-sm);
 }
+
+.actions-wrapper{
+      margin-top: 3rem;
+      display: flex;
+      gap: 1rem;
+}
