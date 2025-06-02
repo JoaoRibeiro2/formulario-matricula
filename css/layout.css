@@ -55,6 +55,6 @@ header{
       margin-bottom: 2rem;
 }
 
-fieldset + fieldset{
+fieldset{
       margin-top: 3rem;
 }
